@@ -1,0 +1,35 @@
+.songs_list{
+    display: flex;
+    justify-content: center;
+}
+
+.songs_list ul{
+    padding: 0;
+}
+.songs_list li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+.btn_load_more {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.filter_container{
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+}
+
+@media (min-width: 375px) and (max-width: 576px){
+    .filter_container{
+        margin: 0;
+    }
+}
